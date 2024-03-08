@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Event List</h1>
+    <table>
+    <tr>
+    <th colspan="2">Event name</th>
+    <th colspan="2">Date</th>
+    <th colspan="2">Location</th>
+    </tr>
+    
+    <tr>
+    <td>Christmass Party</td>
+    <td>College of Science (CS)</td>
+    <td>Brgy bancao-banca0</td>
+    <td>Ayalla Hotel</td>
+    </tr>
+
+    <tr>
+    <td colspan="2">Row 3, Cell 1</td>
+    <td>Row 3, Cell 2</td>
+    <td>Row 3, Cell 3</td>
+    <td>Row 3, Cell 4</td>
+    <td>Row 3, Cell 5</td>
+    </tr>
+    <tr>
+    <td>Row 4, Cell 2</td>
+    <td>Row 4, Cell 3</td>
+    <td>Row 4, Cell 4</td>
+    <td>Row 4, Cell 5</td>
+    </tr>
+    </table>
+    </body>
+    </html>
